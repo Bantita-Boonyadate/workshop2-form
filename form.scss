@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background: linear-gradient(
+        to left ,
+        #ffbe0b,
+        #fb5607,
+        #ff006e,
+        #8338ec,
+        #3a86ff
+      );
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    .header-content {
+        font-size: 3rem;
+        font-family: sans-serif;
+        margin: 30px;
+        padding: 5px;
+    }
+    h2 {
+        color: white; 
+    }
+}
+
+.form-content-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 10px;
+    .fname-content {
+        margin: 20px 0;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        label {
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-right: 50px;
+            margin-top: 5px;
+            color: white;
+        }
+        .fname {
+            border-radius: 5px;
+            width: 300px;
+            padding: 6px 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    .lname-content {
+        margin: 20px 0;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        label {
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-right: 50px;
+            margin-top: 5px;
+            color: white;
+        }
+        .lname {
+            border-radius: 5px;
+            width: 300px;
+            padding: 6px 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    .username-content {
+        margin: 20px 0;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        label {
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-right: 50px;
+            margin-top: 5px;
+            color: white;
+        }
+        .userName {
+            border-radius: 5px;
+            width: 300px;
+            padding: 6px 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    .password-content {
+        margin: 20px 0;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        label {
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-right: 50px;
+            margin-top: 5px;
+            color: white;
+        }
+        .password {
+            border-radius: 5px;
+            width: 300px;
+            padding: 6px 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    .email-content {
+        
+        margin: 20px 0;
+        font-size: 1.8rem;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: white;
+        label {
+            font-size: 1.5rem;
+            font-family: sans-serif;
+            font-weight: bold;
+            padding-right: 50px;
+            margin-top: 5px;
+            color: white;
+        }
+        .email {
+            border-radius: 5px;
+            width: 300px;
+            padding: 6px 0;
+            font-size: 1.2rem;
+        }
+    }
+
+    .submitButton {
+        .submit {
+            border-radius: 10px;
+            font-size: 1.3rem;
+            padding: 6px 0;
+            width: 110px;
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color: #ee6c4d;
+            border-color: yellow;
+        }
+    }
+}

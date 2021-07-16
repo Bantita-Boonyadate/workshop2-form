@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  background: -webkit-gradient(linear, right top, left top, from(#ffbe0b), color-stop(#fb5607), color-stop(#ff006e), color-stop(#8338ec), to(#3a86ff));
+  background: linear-gradient(to left, #ffbe0b, #fb5607, #ff006e, #8338ec, #3a86ff);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-container .header-content {
+  font-size: 3rem;
+  font-family: sans-serif;
+  margin: 30px;
+  padding: 5px;
+}
+
+.header-container h2 {
+  color: white;
+}
+
+.form-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.form-content-container .fname-content {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-content-container .fname-content label {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-top: 5px;
+  color: white;
+}
+
+.form-content-container .fname-content .fname {
+  border-radius: 5px;
+  width: 300px;
+  padding: 6px 0;
+  font-size: 1.2rem;
+}
+
+.form-content-container .lname-content {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-content-container .lname-content label {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-top: 5px;
+  color: white;
+}
+
+.form-content-container .lname-content .lname {
+  border-radius: 5px;
+  width: 300px;
+  padding: 6px 0;
+  font-size: 1.2rem;
+}
+
+.form-content-container .username-content {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-content-container .username-content label {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-top: 5px;
+  color: white;
+}
+
+.form-content-container .username-content .userName {
+  border-radius: 5px;
+  width: 300px;
+  padding: 6px 0;
+  font-size: 1.2rem;
+}
+
+.form-content-container .password-content {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-content-container .password-content label {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-top: 5px;
+  color: white;
+}
+
+.form-content-container .password-content .password {
+  border-radius: 5px;
+  width: 300px;
+  padding: 6px 0;
+  font-size: 1.2rem;
+}
+
+.form-content-container .email-content {
+  margin: 20px 0;
+  font-size: 1.8rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.form-content-container .email-content label {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-right: 50px;
+  margin-top: 5px;
+  color: white;
+}
+
+.form-content-container .email-content .email {
+  border-radius: 5px;
+  width: 300px;
+  padding: 6px 0;
+  font-size: 1.2rem;
+}
+
+.form-content-container .submitButton .submit {
+  border-radius: 10px;
+  font-size: 1.3rem;
+  padding: 6px 0;
+  width: 110px;
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #ee6c4d;
+  border-color: yellow;
+}
+/*# sourceMappingURL=form.css.map */
